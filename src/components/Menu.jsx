@@ -4,8 +4,8 @@ import Ingredients from "./Ingredientes.jsx";
 import { PizzaContext } from "../context/ContextProvider";
 
 const Menu = () => {
-  const { menu, addToCart } = useContext(PizzaContext);
-  const { apiData, setApidata } = useContext(PizzaContext);
+  const  {menu, addToCart}  = useContext(PizzaContext);
+  const  {apiData, setApidata}  = useContext(PizzaContext);
   const navigate = useNavigate();
 
   const viewPizza = (id) => navigate(`/pizza/${id}`);
