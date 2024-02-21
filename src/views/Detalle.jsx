@@ -16,7 +16,7 @@ const Pizza = () => {
                 </section>
                 <article className="content">
                     <h4>{pizza.name}</h4>
-                    <p className="desc">{pizza.desc}</p>
+                    <p className="description">{pizza.desc}</p>
 
                     <Ingredients ingredients={pizza.ingredients} />
 
